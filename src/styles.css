@@ -1,0 +1,25 @@
+.App {
+  display: grid;
+  grid-template-columns: 200px 200px;
+  grid-row: auto auto;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+}
+
+.ball {
+  background: tomato;
+  border-radius: 50%;
+  height: 100%;
+  width: 100%;
+}
+
+.box {
+  border: 2px solid black;
+  cursor: pointer;
+  height: 180px;
+  padding: 5px;
+}
+
+.shadow {
+  opacity: 0.3;
+}
